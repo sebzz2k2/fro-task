@@ -1,36 +1,36 @@
-.container {
+.abtcontainer {
   padding: 1rem 2rem;
   margin: 20px 0;
 }
-.heading {
+.abtheading {
   font-size: 1.8rem;
   color: black;
   font-family: "Courier New", Courier, monospace;
 }
-.subHeading {
+.abtsubHeading {
   font-size: 0.9rem;
   color: rgb(63, 63, 63);
   font-family: "Courier New", Courier, monospace;
   margin-left: 1rem;
 }
-.subContainer {
+.abtsubContainer {
   margin-top: 1rem;
   display: flex;
 }
 
-.content {
+.abtcontent {
   margin: 1rem;
   color: rgb(27, 27, 27);
   font-family: "Courier New", Courier, monospace;
 }
 
-.contentHeading {
+.abtcontentHeading {
   font-size: 1.2rem;
   color: black;
   margin-top: 2rem;
   font-family: "Courier New", Courier, monospace;
 }
-.list {
+.abtlist {
   margin-top: 1rem;
   margin-left: 2rem;
 }
@@ -41,7 +41,7 @@ li {
   font-family: "Courier New", Courier, monospace;
   width: 60%;
 }
-.internDiv {
+.abtinternDiv {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

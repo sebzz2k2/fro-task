@@ -4,29 +4,29 @@ import { FiMail, FiGithub, FiPhone } from "react-icons/fi";
 
 const AboutUs: FC = () => {
   return (
-    <div className="container">
-      <h4 className="heading">Sebin Chacko Mathew</h4>
-      <div className="subContainer">
+    <div className="abtcontainer">
+      <h4 className="abtheading">Sebin Chacko Mathew</h4>
+      <div className="abtsubContainer">
         <FiMail />
-        <p className="subHeading">sebinsebzz2002@gmail.com</p>
+        <p className="abtsubHeading">sebinsebzz2002@gmail.com</p>
       </div>
-      <div className="subContainer">
+      <div className="abtsubContainer">
         <FiGithub />
         <a
           href="https://github.com/sebzz2k2/"
-          className="subHeading"
+          className="abtsubHeading"
           target="_blank"
         >
           https://github.com/sebzz2k2/
         </a>
       </div>
-      <div className="subContainer">
+      <div className="abtsubContainer">
         <FiPhone />
-        <p className="subHeading">+91 7356367026</p>
+        <p className="abtsubHeading">+91 7356367026</p>
       </div>
       <div>
-        <h4 className="contentHeading">Objective</h4>
-        <p className="content">
+        <h4 className="abtcontentHeading">Objective</h4>
+        <p className="abtcontent">
           As a student who have successfully completed two internships I am well
           equipped with React Js. Although I specialise in React, TypeScript and
           its component libraries like Material Ui, Chakara Ui, React bootstrap
@@ -39,10 +39,10 @@ const AboutUs: FC = () => {
           development process of the enterprise.
         </p>
       </div>
-      <h4 className="contentHeading">Previous Internships</h4>
+      <h4 className="abtcontentHeading">Previous Internships</h4>
 
-      <ol className="list">
-        <div className="internDiv">
+      <ol className="abtlist">
+        <div className="abtinternDiv">
           <li>
             <b>Front-end Developer Intern (8th May - 8th June 2022)</b>
             <ul>
@@ -67,8 +67,8 @@ const AboutUs: FC = () => {
           </li>
         </div>
       </ol>
-      <h4 className="contentHeading">Skills</h4>
-      <ul className="list">
+      <h4 className="abtcontentHeading">Skills</h4>
+      <ul className="abtlist">
         <li>React Js</li>
         <li>Node, Express, Mongo DB</li>
         <li>TypeScript</li>
@@ -76,8 +76,8 @@ const AboutUs: FC = () => {
         <li>Git</li>
         <li>HTML/CSS/Js</li>
       </ul>
-      <h4 className="contentHeading">Education</h4>
-      <ul className="list">
+      <h4 className="abtcontentHeading">Education</h4>
+      <ul className="abtlist">
         <li>Bachelor of Science (B.Sc), Computer Science (2020-present)</li>
         <li>Senior Secondary (XII) (2018-2020)</li>
         <li>Secondary (X)</li>
