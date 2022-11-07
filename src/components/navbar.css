@@ -1,0 +1,27 @@
+.navContainer {
+  width: 100%;
+  height: 72px;
+  border-bottom: solid 2px #eaeaea;
+  box-shadow: rgb(00, 00, 00) 0px 0px 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.headingText {
+  font-size: 2rem;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.navLink {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+}

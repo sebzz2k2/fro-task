@@ -1,0 +1,61 @@
+.postImg {
+  height: 350px;
+  width: 350px;
+  border-radius: 8px;
+}
+
+.headingDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  width: 350px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  color: #f0f0f0;
+}
+.headingDiv img {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+.footerDiv {
+  font-weight: 600;
+  font-size: 1rem;
+  width: 350px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  color: #f0f0f0;
+}
+.footerDiv > p {
+  margin-bottom: 1rem;
+}
+.buttonStyles {
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 290px;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+h3 span {
+  color: #adadad;
+}

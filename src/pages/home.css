@@ -1,0 +1,29 @@
+.image {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  height: 350px;
+}
+.image:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+.imgContainer {
+  border: 2px solid #eee;
+  border-radius: 8px;
+}
+.container {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+.childContainer {
+  width: 375px;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
+}
